@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&family=Whisper&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Style+Script&family=Whisper&display=swap');
+
+
+
+*{
+  margin: 10;
+  padding: 30;
+  box-sizing: border-box;
+  background-color: #f6faff;
+}
+
+h1{
+  text-align: center;
+  color:dimgray;
+  padding: 10px;
+  font-family: "Comfortaa", sans-serif;
+
+}
+
+h2{
+  text-align: center;
+  color:dimgray;
+  padding: 10px;
+  font-family: "Comfortaa", sans-serif;
+}
+summary {
+  background-color: #e3edf7;
+  color: black;
+  cursor: pointer;
+  padding: 20px;
+  font-family: "Comfortaa", sans-serif;
+  box-shadow:6px 6px 10px -1px rgba(0,0,0,0.15),
+             -6px -6px 10px -1px rgba(255,255,255,0.7);
+  list-style-type: none;
+  transition: max-height 5s, padding 5;
+}
+
+details{
+  border: #e3edf7;
+  border-radius: 5px;
+  font-family: "Comfortaa", sans-serif;
+  box-shadow:6px 6px 10px -1px rgba(0,0,0,0.15),
+             -6px -6px 10px -1px rgba(255,255,255,0.7);
+  margin: 10px auto;
+  width:800px;
+  transition: max-height 5s, padding 5;
+}
+
+details[open] summary {
+  background-color: #747d8c;
+  font-family: "Comfortaa", sans-serif;
+  box-shadow:6px 6px 10px -1px rgba(0,0,0,0.15),
+             -6px -6px 10px -1px rgba(255,255,255,0.7);
+  margin: 10px auto;
+  width:800px;
+  transition: max-height 5s, padding 5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+summary:hover{
+  background-color: #747d8c;
+}
+
